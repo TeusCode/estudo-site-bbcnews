@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Configurações universais*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+    padding: 10px;
+    height: 40px;
+    background-color: #B80000;
+}
+
+header>img {
+    width: 250px;
+    height: 40px;
+}
+
+nav {
+    display: block;
+    background-color: gray;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
