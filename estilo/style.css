@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -14,20 +15,58 @@ main {
 header {
     display: block;
     padding: 10px;
-    height: 40px;
+    height: 45px;
     background-color: #B80000;
 }
 
 header>img {
     width: 250px;
-    height: 40px;
+    height: 35px;
+    padding-bottom: 10px;
 }
 
-nav {
+header>img:hover {
+    border-bottom: 5px solid yellow;
+}
+
+
+div#menu {
     display: block;
-    background-color: gray;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-color: green;
+    white-space: nowrap;
+    position: relative;
+    /*Impede que a linha seja quebrada*/
+}
+
+
+nav {
+    padding-top: 5px;
+    vertical-align: auto;
+}
+
+nav span.material-icons {
+    vertical-align: -8px;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+span.material-icons:hover {
+    outline: auto;
+
 }
 
 nav>ul>li {
+    display: inline;
     list-style-type: none;
+    font-size: 1em;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+nav>ul>li.itens:hover {
+    border-bottom: 5px solid red;
 }
